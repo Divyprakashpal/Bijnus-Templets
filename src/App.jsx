@@ -11,7 +11,7 @@ const App = () => {
       <div className="navbar   w-full relative   ">
       <Header/>
        
-        <div className="flex flex-col  justify-center px-20 pt-28  bg-zinc-700 h-[90vh] bg-[url('./public/Images/mainbg.jpg')] bg-fixed bg-no-repeat bg-cover bg-center  ">
+        <div className="flex flex-col  justify-center px-20 pt-28  bg-zinc-700 h-[90vh] bg-[url('/Images/mainbg.jpg')] bg-fixed bg-no-repeat bg-cover bg-center  ">
           <h1 className=" text-white text-[5vmax] leading-tight font-[700]">
             Serving you  <br />
             since 1989.

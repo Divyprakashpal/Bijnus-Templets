@@ -14,7 +14,7 @@ const Header = () => {
         <div className="nav2 flex items-center justify-between py-2 px-5 bg-red-500   ">
           <img
             className="text-white "
-            src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adad44d1f072965b6_logo.svg"
+            src="/Images/logo.svg"
             alt="logo"
           />
           <ul className="flex items-center gap-10 text-white font-semibold text-base ">
@@ -25,7 +25,7 @@ const Header = () => {
             <li className="px-4 transition-[background-color] ease-in-out duration-600 rounded-full hover:bg-black cursor-pointer">Contact</li>
             <img
               className="bg-zinc-800 w-[3vw] cursor-pointer p-2 rounded-full    "
-              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e86146bb854797d12a30a13_cart.svg"
+              src="/Images/cart.svg"
               alt=""
             />
           </ul>

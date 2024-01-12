@@ -52,7 +52,7 @@ const App = () => {
               </h1>
               <img
                 className="ml-[20vmax] mt-[-1vmax] mr-[-4vmax] p-30 bg-re-500 h-[10vmax] "
-                src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57a5836db2a07bab0e3_Circle.svg"
+                src="/Images/circle.svg"
                 alt=""
               />
             </div>
@@ -73,7 +73,7 @@ const App = () => {
               </h1>
               <img
                 className="w-[12vw] mt-[7vh] ml-[19.5vmax] "
-                src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adc54453434efb9ee_Triangle.svg"
+                src="/Images/triangle.svg"
                 alt=""
               />
             </div>
@@ -95,7 +95,7 @@ const App = () => {
               </h1>
               <img
                 className="h-[30vh] ml-[22vmax] mt-[-2vmax] "
-                src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57afea9a31a44d66db0_Rectangle.svg"
+                src="/Images/rectangle.svg"
                 alt=""
               />
             </div>
@@ -107,7 +107,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="p-3 bg-red-400 h-[100vh] bg-[url('./public/Images/bgimg2.jpg')]  bg-no-repeat bg-cover bg-center  ">
+      <div className="p-3 bg-red-400 h-[100vh] bg-[url('/Images/bgimg2.jpg')]  bg-no-repeat bg-cover bg-center  ">
         
         <div className="text-end mr-[3vmax]">
           <h1 className="pt-[10vmax] text-white text-black-500 text-[3vmax] font-[700]">
@@ -132,7 +132,7 @@ const App = () => {
         <div className="images flex  gap-[2.5vmax] pt-[5vmax] pl-[2vmax]">
           <div className="photo">
             <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
-              <img src="./public/Images/box1img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+              <img src="/Images/box1img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
             </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
@@ -151,7 +151,7 @@ const App = () => {
           <div className="photo">
             
           <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
-              <img src="./public/Images/box2.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+              <img src="/Images/box2.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-center object-cover object-right-top"  alt="" />
             </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
@@ -169,7 +169,7 @@ const App = () => {
 
           <div className="photo cursor-pointer">
           <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
-              <img src="./public/Images/box3img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+              <img src="/Images/box3img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
             </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
@@ -195,7 +195,7 @@ const App = () => {
         </button>
       </div>
       <div className="page-5 h-[100vh] bg-white flex gap-[2vmax] relative ">
-        <div className="leftbox h-[70vh] w-[100vw] bg-green-300 rounded-[.5vmax] pt-[5vmax] mt-[5vmax] translate-x-[5vmax] bg-[url('./public/Images/bg3img.jpg')] bg-no-repeat bg-cover bg-center  "></div>
+        <div className="leftbox h-[70vh] w-[100vw] bg-green-300 rounded-[.5vmax] pt-[5vmax] mt-[5vmax] translate-x-[5vmax] bg-[url('/Images/bg3img.jpg')] bg-no-repeat bg-cover bg-center  "></div>
         <div className="right-box h-[90vh] w-[300vw] bg-zinc-900 rounded-[.5vmax] mr-[3vmax]">
           <h1 className="text-white text-center text-[3.5vmax] font-[500] mt-[4vmax]">
             Shop Local.
@@ -216,23 +216,23 @@ const App = () => {
         <div className="p-6-nav flex items-center justify-between p-10 pt-[5vmax]">
           <img
             className="text-white "
-            src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adad44d1f072965b6_logo.svg"
+            src="/Images/logo.svg"
             alt="logo"
           />
           <ul className="flex items-center gap-20 text-white font-semibold text-xl">
             <img
               className="h-[3vmax] hover:bg-zinc-500"
-              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e8407a25b6234aeec960fb9_Twitter_Social_Icon_Rounded_Square_White.svg"
+              src="/Images/twitter.svg"
               alt=""
             />
             <img
               className="h-[3vmax] hover:bg-zinc-500"
-              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e8407aa3fb6cf5576f1658b_Facebook%20Logo.svg"
+              src="/Images/facebook.svg"
               alt=""
             />
             <img
               className="h-[3vmax] hover:bg-zinc-500"
-              src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e840774014326b74bbeeeb6_Insta.svg"
+              src="/Images/insta.svg"
               alt=""
             />
           </ul>

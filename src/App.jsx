@@ -3,12 +3,15 @@ import Header from "./components/header";
 
 
 const App = () => {
+
+
+  
   return (
     <>
       <div className="navbar   w-full relative   ">
       <Header/>
        
-        <div className="flex flex-col  justify-center px-16 pt-28  bg-zinc-700 h-[90vh] bg-[url('./public/Images/mainbg.jpg')] bg-fixed bg-no-repeat bg-cover bg-center  ">
+        <div className="flex flex-col  justify-center px-20 pt-28  bg-zinc-700 h-[90vh] bg-[url('./public/Images/mainbg.jpg')] bg-fixed bg-no-repeat bg-cover bg-center  ">
           <h1 className=" text-white text-[5vmax] leading-tight font-[700]">
             Serving you  <br />
             since 1989.
@@ -128,7 +131,9 @@ const App = () => {
         </div>
         <div className="images flex  gap-[2.5vmax] pt-[5vmax] pl-[2vmax]">
           <div className="photo">
-            <div className="photo-1 h-[75vh] w-[30vw] bg-zinc-900 rounded-[.5vmax] bg-[url('./public/Images/box1img.jpg')] bg-no-repeat bg-cover bg-center pt-[-20vmax] "></div>
+            <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
+              <img src="./public/Images/box1img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+            </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
                 White Tent
@@ -144,7 +149,10 @@ const App = () => {
           </div>
 
           <div className="photo">
-            <div className="photo-2 h-[75vh] w-[30vw] bg-zinc-900 rounded-[.5vmax] bg-[url('./public/Images/box2.jpg')] bg-no-repeat bg-cover bg-center pt-[-20vmax]"></div>
+            
+          <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
+              <img src="./public/Images/box2.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+            </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
                 Tin Coffee Tumbler
@@ -159,8 +167,10 @@ const App = () => {
             </div>
           </div>
 
-          <div className="photo">
-            <div className="photo-3 h-[75vh] w-[30vw] bg-zinc-900 rounded-[.5vmax] bg-[url('./public/Images/box3img.jpg')] bg-no-repeat bg-cover bg-center pt-[-20vmax]"></div>
+          <div className="photo cursor-pointer">
+          <div className="pico photo-1 h-[75vh] w-[30vw] rounded-[.5vmax] overflow-hidden pt-[-20vmax] ">
+              <img src="./public/Images/box3img.jpg" className="hover:scale-110 overflow-hidden transition-scale duration-200 ease-in-out h-full object-cover"  alt="" />
+            </div>
             <div className="text  w-[30vw]  text-center pt-[2vmax]">
               <h1 className="text-black font-[500] text-base">
                 Blue Canvas Pack
@@ -169,7 +179,7 @@ const App = () => {
                 <p className="text-black  text-base ">
                   $ 95.00 USD
                 </p>
-                <p className="text-red-600  text-base underline ">
+                <p className="text-red-600  text-base line-through ">
                   $ 145.00 USD
                 </p>
               </div>
